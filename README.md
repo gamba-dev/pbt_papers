@@ -1,14 +1,12 @@
 # Player Behaviour Tracking Paper Collection
 
-This mini-project provides an accessible list of peer-reviewed articles which present analyses of gambling transactions.
-Only studies which focus on the analysis of the tranasctions themselves, as opposed to work pulling in other data sources (like surveys or lab studies), are included.
-This is to keep the list manageable (there's a lot of important work out there which is really interesting), and to give users of the gamba library a concise list of existing work.
+This repository contains code for generating a static HTML page using fields from a .bib file.
 
+It specifically focusses on player behaviour tracking research, which concerns the computation of behavioural measures for collection of players using their gambling transaction data.
 
+### `.bib` fields
+To use this project effectively, your .bib file should be in proper BibTeX format, plus a field called `measures` containing a comma seperated list of names of behavioural measures.
+Each of these behavioural measures can optionally hold a description which can be delimited using a colon as follows;
 
----
-**NOTE**
+`measures = {name: this is a measure, another: this is another measure}`
 
-This is also a mini-project to practice using github's branch/PR system :)
-
----
